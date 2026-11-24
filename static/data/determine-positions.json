@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "white": "Ke4, Ps b6, f2, g2",
+    "black": "Kd6, Ps f7, g5, h4",
+    "continuation": "1...g4 2.Kf4 f5 3.f3 g3 4.Ke3 Kc6",
+    "solutionWhite": "Ke3, Ps b6, f3, g2",
+    "solutionBlack": "Kc6, Ps f5, g3, h4",
+    "site": ""
+  },
+  {
+    "id": 2,
+    "white": "Kb4, Ps a3, c4, c5",
+    "black": "Kg5, Ps a4, c6, g6",
+    "continuation": "1.Ka5 Kf4 2.Kb6 g5 3.Kxc6 g4 4.Kb5 g3 5.c6 g2 6.c7 g1Q 7.c8Q",
+    "solutionWhite": "Kb5, Qc8, Ps a3, c5",
+    "solutionBlack": "Kf4, Qg1, Pa4",
+    "site": ""
+  },
+  {
+    "id": 3,
+    "white": "Kd5, Ps a5, c6",
+    "black": "Kc8, Pa6",
+    "continuation": "1.Kc5 Kd8 2.Kb6 Kc8 3.c7",
+    "solutionWhite": "Kb6, Pc7",
+    "solutionBlack": "Kc8, Pa6",
+    "site": ""
+  },
+  {
+    "id": 4,
+    "white": "Ke1, Ps d4, e5, f4",
+    "black": "Ke7, Ps d5, e6, f5",
+    "continuation": "1.Kd2 Kd7 2.Kc3 Kc7 3.Kb4 Kb6 4.Ka4 Ka6 5.Kb4 Kb6",
+    "solutionWhite": "Kb4, Ps d4, e5, f4",
+    "solutionBlack": "Kb6, Ps d5, e6, f5",
+    "site": ""
+  },
+  {
+    "id": 5,
+    "white": "Kd8, Ps b5, h2",
+    "black": "Ka7, Ps a6, b7",
+    "continuation": "1.b6+ Kb8 2.h4 a5 3.h5 a4 4.h6 a3 5.h7 a2 6.h8Q a1Q",
+    "solutionWhite": "Kd8, Qh8, Pb6",
+    "solutionBlack": "Kb8, Qa1, Pb7",
+    "site": ""
+  },
+  {
+    "id": 6,
+    "white": "Kg1, Ps f2, g3, h2",
+    "black": "Kg7, Ps f7, g6, h7",
+    "continuation": "1.Kf1 Kf6 2.Ke2 Ke5 3.Kd3 Kd5 4.f4 f5",
+    "solutionWhite": "Kd3, Ps f4, g3, h2",
+    "solutionBlack": "Kd5, Ps f5, g6, h7",
+    "site": ""
+  }
+]

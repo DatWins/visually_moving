@@ -1,0 +1,13 @@
+{{- /*
+  Text-only visualization exercise card.
+  Usage: {{< exercise-deck category="how-would-you-play" type="how-would-you-play" title="Tactical Puzzles" >}}
+  type must be one of: how-would-you-play, determine-positions, play-out-the-game
+*/ -}}
+{{- $cat   := .Get "category" -}}
+{{- $type  := .Get "type" -}}
+{{- $title := .Get "title" -}}
+{{- if not $cat }}{{ errorf "exercise-deck: missing category= at %s" .Position }}{{ end -}}
+{{- if not $type }}{{ errorf "exercise-deck: missing type= at %s" .Position }}{{ end -}}
+<div class="exercise-deck" id="{{ $cat }}" data-category="{{ $cat }}" data-type="{{ $type }}" data-title="{{ $title | default $cat }}">
+  <noscript><p><em>This exercise needs JavaScript enabled.</em></p></noscript>
+</div>

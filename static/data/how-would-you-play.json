@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "white": "Kd1, Rf4, Be4, Ps b5, f3, h3",
+    "black": "Kc4, Ra2, Bd4, Ps d3, h4",
+    "toMove": "Black",
+    "solution": ["1...Ra1+", "2.Ke2 Re1#"],
+    "site": ""
+  },
+  {
+    "id": 2,
+    "white": "Kf6, Pd5",
+    "black": "Kb5, Pd6",
+    "toMove": "White",
+    "solution": ["1.Ke6"],
+    "site": ""
+  },
+  {
+    "id": 3,
+    "white": "Kg1, Qd1, Rd1, Nd6, Ps e5, f2, g2, h2",
+    "black": "Kg8, Qb8, Ps e6, f7, g7, h7",
+    "toMove": "White",
+    "solution": ["1.Nf5!"],
+    "site": ""
+  },
+  {
+    "id": 4,
+    "white": "Kd5, Ps a5, c6",
+    "black": "Kc8, Pa6",
+    "toMove": "White",
+    "solution": ["1.Kc5!", "2.Kb6", "3.c7"],
+    "site": ""
+  },
+  {
+    "id": 5,
+    "white": "Kg1, Rd1, Nd6, Ps e5, f2, g2, h2",
+    "black": "Kg8, Qb8, Ps e6, f7, g7, h7",
+    "toMove": "White",
+    "solution": ["1.Nxf7!"],
+    "site": ""
+  },
+  {
+    "id": 6,
+    "white": "Kf5, Rg7, Bg4, Ps a4, c7, h3",
+    "black": "Ke7, Re8, Bg3, Ps a5, f7, h6",
+    "toMove": "White",
+    "solution": ["1.Bh5!", "threatening 2.c8=Q"],
+    "site": ""
+  },
+  {
+    "id": 7,
+    "white": "Ke1, Qd1, Ra1, Rh1, Bc1, Bf1, Nb1, Ng1, Ps a2, b2, c2, d4, f2, g2, h2",
+    "black": "Ke8, Qd8, Ra8, Rh8, Bc8, Bf8, Nb8, Nf6, Ps a7, b7, c7, d5, e4, f7, g7, h7",
+    "toMove": "White",
+    "solution": ["1.Nc3"],
+    "site": ""
+  },
+  {
+    "id": 8,
+    "white": "Kb4, Ps a3, c4, c5",
+    "black": "Kg5, Ps a4, c6, g6",
+    "toMove": "White",
+    "solution": ["1.Ka5!", "and wins the a4-pawn"],
+    "site": ""
+  }
+]

@@ -1,0 +1,15 @@
+{{- /*
+  Renders a horizontal pill row of sub-items within a section.
+  Usage: {{< submenu "Label1|anchor1" "Label2|anchor2" >}}
+  Items without a "|" separator are shown as "coming soon" (dashed outline).
+*/ -}}
+<div class="submenu">
+{{- range .Params -}}
+  {{- $parts := split . "|" -}}
+  {{- if gt (len $parts) 1 -}}
+    <a class="sub-item ready" href="#{{ index $parts 1 }}">{{ index $parts 0 }}</a>
+  {{- else -}}
+    <span class="sub-item soon">{{ index $parts 0 }}</span>
+  {{- end -}}
+{{- end -}}
+</div>
