@@ -3,7 +3,7 @@
    deep charcoal frame. No board diagrams — just notation. */
 
 .exercise-deck {
-  --ex-panel: #FFF8F2;
+  --ex-panel: #FAF0DC;
   --ex-ink: #1A1520;
   --ex-muted: #3D3545;
   --ex-accent: #D97757;
@@ -19,7 +19,7 @@
   color: var(--ex-ink);
 }
 .post-holder.dark .exercise-deck {
-  --ex-panel: #FFF8F2;
+  --ex-panel: #FAF0DC;
   --ex-ink: #1A1520;
   --ex-muted: #3D3545;
   --ex-accent: #D97757;
